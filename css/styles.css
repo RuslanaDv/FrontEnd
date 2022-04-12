@@ -2,104 +2,213 @@
     font-family: Roboto;
 } 
 
-.menu {
-    margin-left: 399px;
-    margin-top: 79px;
+.content {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
 }
 
-.header_size {
-    position: absolute;
-    width: 1920px;
-} 
-
-.header_background {
+.background_silver {
     background-color: #EEEFF1;
+    background-size: 100%;
+}
+
+.navigation {
+    padding-top: 79px;
 }
 
 .menu_text {
-    margin-right: 42px;
-
+    display: inline;
+    margin-left: 42px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+}
 
-    display: inline-block;
-    box-sizing: border-box;
-} 
-
-.menu_main {
+.menu_active {
+    margin-left: 0;
     font-weight: 500;
     color: #34547A;
 }
 
+.description {
+    padding-bottom: 141px;
+}
+
+.section_design {
+    padding-top: 162px;
+    padding-bottom: 141px;
+}
+
 .header {
-    display: inline-block;
-    margin-left: 399px;
+    margin-bottom: 0;
     width: 541px;
-    text-align: left;
+    display: inline;
 }
 
 .header_text {
-    /* width: 541px; */
-    margin-top: 162px;
-    margin-bottom: 60px;
-
+    display: block;
+    padding: 0;
     font-weight: 500;
     font-size: 48px;
-    line-height: 79px;  
-
-    box-sizing: content-box;
-    /* display: inline-block; */
+    line-height: 79px;
 }
 
 .header_description {
-    /* width: 540px; */
-    /* margin-left: 400px; */ 
-    /* margin-top: 60px; */
-
+    padding: 0;
+    width: 540px;
+    margin-top: 60px;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
-    box-sizing: content-box;
+    display: inline-block;
     color: #727272;
-    /* display: inline-block; */
 }
 
-.bottom_text {
+.button {
+    margin-top: 65px;
     padding-top: 19px;
-    padding-bottom: 20px;
-
+    padding-bottom: 20px; 
+    width: 225px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-
     text-transform: uppercase;
-    box-sizing: border-box;
-}
-
-.bottom {
-    margin-left: 399px;
-    margin-top: 65px;   
-    margin-bottom: 141px;
-    width: 225px;
     color: #FFFFFF;
     background-color: #34547A;
     display: block;
+    box-sizing: border-box;
 }
 
-.main {
-    width: 1920px;
-}
-
-.main_header {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 38px;
+.section_about {
+    margin-top: 112px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
+.main_header {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.about_description {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    display: inline-block;
+    color: #727272;
+}
+
+.background_accent {
+    background-color: #34547A;
+}
+
+.section_items {
+    padding: 100px 0;
+    text-align: left;
+    margin: 0;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0; 
+}
+
+.item_content {
+    margin: 0 0 0 45px;
+    width: 141px;
+    color: #34547A;
+    display: inline;
+    padding: 0;
+}
+
+.item_first {
+    margin: 0;
+}
+
+.item_header {
+    margin: 0 0 0 20px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.item_description {
+    height: 15px;
+    margin: 10px 0 0 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.item_text {
+    display: inline-block;
+} 
+
+.section_work {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.header_work {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.section_video {
+    margin-top: 57px;
+    padding-bottom: 100px;
+    text-align: center;
+    display: block;
+}
+
+.video {
+    width: 1110px;
+    height: 600px;
+}
+
+.section_footer {
+    padding: 50px 0;
+    text-align: left;
+    display: block;
+}
+
+.footer_header {
+    margin: 0;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer_text {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
