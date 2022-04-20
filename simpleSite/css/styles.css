@@ -3,20 +3,24 @@
 } 
 
 .content {
-    width: 1300px;
+    width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    margin: 0;
     padding: 0;
 }
 
 .background_silver {
+    width: 100%;
     background-color: #EEEFF1;
-    background-size: 100%;
 }
 
 .navigation {
     padding-top: 79px;
+}
+
+.background_white {
+    width: 100%;
+    background-color: #ffffff;
 }
 
 .menu_text {
@@ -118,7 +122,9 @@
 .section_items {
     padding: 100px 0;
     text-align: left;
-    margin: 0;
+    font-size: 0;
+	line-height: 0;
+	letter-spacing:-1px;
 }
 
 .ul {
@@ -134,9 +140,9 @@
 
 .item_content {
     margin: 0 0 0 45px;
-    width: 141px;
     color: #34547A;
-    display: inline;
+    vertical-align: middle;
+    display: inline-block;
     padding: 0;
 }
 
@@ -166,6 +172,10 @@
     display: inline-block;
 } 
 
+.padding {
+    padding-bottom: 100px;
+}
+
 .section_work {
     padding-top: 100px;
     text-align: center;
@@ -179,8 +189,8 @@
 }
 
 .section_video {
-    margin-top: 57px;
-    padding-bottom: 100px;
+    padding-top: 57px;
+    /* margin-bottom: 100px; */
     text-align: center;
     display: block;
 }
