@@ -1,0 +1,19 @@
+
+.button__blue {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #3E56AA;
+}
+
+.button__grey {
+  text-decoration: none;
+  color: #2C2D2E;
+  background-color: #F0F1F3;
+}
+
+.button__default {
+  float: right;
+  text-decoration: none;
+  color: #3E56AA; 
+}

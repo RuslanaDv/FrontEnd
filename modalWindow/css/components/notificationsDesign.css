@@ -1,0 +1,43 @@
+.info {
+  background: #F0F1F3;
+}
+
+.check {
+  background: #E9F8EB;
+}
+
+.warning {
+  background: #FFF8E0;
+}
+
+.alert {
+  background: #FDEAE4;
+}
+
+.info--item::before {
+  content: url(..//../../icons/info.png);
+  left: 10px;
+  position: absolute;
+  transform: translateY(10%);
+}
+
+.check--item::before {
+  content: url(..//../../icons/check.png);
+  left: 10px;
+  position: absolute;
+  transform: translateY(10%);
+}
+
+.warning--item::before {
+  content: url(..//../../icons/warning.png);
+  left: 10px;
+  position: absolute;
+  transform: translateY(10%);
+}
+
+.alert--item::before {
+  content: url(..//../../icons/alert.png);
+  left: 10px;
+  position: absolute;
+  transform: translateY(10%);
+}
