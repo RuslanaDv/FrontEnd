@@ -1,3 +1,13 @@
+.buttons {
+  margin: 0;
+  padding: 32px 0 0 0; 
+}
+
+.buttons a {
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px 20px;
+}
 
 .button__blue {
   margin-right: 12px;
