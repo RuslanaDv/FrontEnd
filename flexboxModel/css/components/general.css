@@ -1,0 +1,82 @@
+.font {
+  font-family: 'GraphikCG';
+}
+
+.backgroung__orange {
+  background-color:#FF9C7D;
+}
+
+.background__white {
+  background-color: #ffffff;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1290px;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex__collumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.button__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+}
+
+.button__text--2 {
+  width: 160px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.button__white {
+  width: 120px;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.button__orange {
+  width: 120px;
+  color: #FFFFFF;
+  background-color: #FF6336;
+  border: 1px solid #FF6336;
+  margin-left: 10px;
+}
+
+.regular__button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.paragraph__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
