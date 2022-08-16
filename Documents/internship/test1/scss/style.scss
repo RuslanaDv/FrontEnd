@@ -1,0 +1,175 @@
+$color--1: #59A8EA;
+$color--2: #FFFFFF;
+$color--3: #81C820;
+$color--4: #545454;
+$color--5: #F1FFFC;
+$font--helvetica: 'HelveticaNeueCyr';
+$font--roboto: 'Roboto';
+$regular__spacing: 0.02em; 
+
+a, h2, p {
+  text-decoration: none;
+  margin: 0;
+}
+
+button {
+  border:none;
+}
+
+.content {
+  width: 1600px;
+}
+
+.header__background {
+  background-color: $color--1;
+}
+
+.banner__background {
+  background-color: $color--5; 
+}
+
+.logo__icon {
+  position: absolute;
+  top: 0px;
+  left: 215px;
+}
+
+.flex {
+  display: flex;
+}
+
+.collumn {
+  flex-direction: column;
+}
+
+.header {
+  gap: 215px;
+  justify-content: flex-end;
+  padding: 0 215px;
+}
+
+.navigation {
+  gap: 30px;
+  align-items: baseline;
+}
+
+.info {
+  align-items: baseline;
+}
+
+.icon__transfom {
+  transform: translateY(4px);
+  margin-left: 30px;
+}
+
+.nav__item {
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.text--regular {
+  font-family: $font--helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: $regular__spacing;
+  color: $color--2;
+}
+
+.active {
+  border-bottom:  2px solid $color--2;
+}
+
+.text__number {
+  margin-left: 8px;
+  margin-top: 27px;
+  font-family: $font--roboto;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: $color--2;
+  letter-spacing: $regular__spacing;
+}
+
+.menu__button {
+  width: 165px;
+  height: 24px;
+  position: absolute;
+  top: 0px;
+  color: $color--2;
+  border-radius: 0 0 5px 5px;
+  background-color: $color--3;
+  transform: translateX(26px);
+}
+
+.button__text {
+  font-family: $font--roboto;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: $regular__spacing;
+  text-transform: uppercase;
+}
+
+.location {
+  margin-left: 9px;
+}
+
+.banner {
+  padding-left: 215px;
+  justify-content: space-between;
+}
+
+.header__text {
+  margin-top: 81px;
+  font-family: $font--roboto;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.definition {
+  width: 530px;
+  margin-top: 10px;
+  color: $color--4;
+}
+
+.description {
+  width: 520px;
+  margin-top: 28px;
+  color: $color--4;
+}
+
+.text--2 {
+  font-family: $font--helvetica;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: $color--4;
+  margin-top: 45px;
+}
+
+.banner__button {
+  margin-top: 30px;
+  width: 205px;
+  height: 50px;
+  border: none;
+  vertical-align: center;
+  color: $color--2;
+  background-color: $color--3;
+}
+
+.inline {
+  display: inline;
+}
+
+.calculator__icon {
+  margin-left: 11px;
+  transform: translateY(4px); 
+}
+
+.banner__img {
+  float: right;
+}
+
+/*# sourceMappingURL=style.scss.map */
