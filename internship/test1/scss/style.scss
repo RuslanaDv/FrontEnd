@@ -7,7 +7,7 @@ $font--helvetica: 'HelveticaNeueCyr';
 $font--roboto: 'Roboto';
 $regular__spacing: 0.02em; 
 
-a, h2, p {
+a, h2, p, h3, h4 {
   text-decoration: none;
   margin: 0;
 }
@@ -23,7 +23,7 @@ button {
 
 .content {
   position: relative;
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ button {
 .contact__info {
   display: flex;
   align-items: baseline;
-  margin-left: 215px;
+  margin-left: 210px;
 }
 
 .menu__button {
@@ -131,7 +131,7 @@ button {
 }
 
 .content--banner {
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
 }
 
@@ -207,6 +207,352 @@ button {
   height: 100%;
   object-fit: cover;
 }
+
+.background--white {
+  background-color: #FFFFFF;
+}
+
+.page__path {
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+
+.page__text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  color: $color--4;
+}
+
+.page__text::after {
+  content: " / ";
+}
+
+.page--active {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  color: $color--1;
+}
+
+.about__section--1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 127px;
+  margin-bottom: 170px;
+}
+
+.collage {
+  width: 50%;
+  flex-direction: column;
+  height: 530px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.image--1 {
+  width: 284px;
+}
+
+.paragraph__container {
+  width: 538px;
+  margin-left: 60px;
+}
+
+.section__tag {
+  margin-bottom: 7px;
+  font-family: $font--helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: $color--3;
+  text-transform: uppercase;
+}
+
+.header__text--2 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.title__about {
+  margin-bottom: 52px;
+}
+
+.text--3 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #545454;
+}
+
+.text--bold {
+  font-weight: 700;;
+}
+
+.description--2 {
+  margin-bottom: 20px;
+}
+
+.background--blue {
+  background-color: #DFF1FF;
+  // position: relative;
+}
+
+.values__section {
+  position: relative;
+}
+
+.title__values {
+  padding-top: 47px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.paragraph__numbers--container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+  padding-bottom: 42px;
+}
+
+.background__numbers {
+  background-image: linear-gradient(to bottom, #FAFDFF 127px, #DFF1FF 127px);
+}
+
+.paragraph__numbers--text {
+  font-family: $font--roboto;
+  letter-spacing: 0.03em;
+  color: $color--4;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.header__values {
+  width: 370px;
+  font-family: $font--roboto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  color: $color--4;
+}
+
+.paragraph__numbers {
+  width: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 16px;
+}
+
+.description__values {
+  margin-top: 58px;
+}
+
+.clean__section {
+  display: flex;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  justify-content: space-between;
+}
+
+.clean__cotainer {
+  width: 530px;
+  padding-top: 14px;
+}
+
+.clean__cotainer .description--2 {
+  margin-top: 48px;
+}
+
+.clean__cotainer .section__tag {
+  margin-bottom: 10px;
+}
+
+.collage--2 {
+  width: 50%;
+  position: relative;
+  gap: 10px;
+  display: flex;
+}
+
+.image__position {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image__position--2 {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.team__section {
+  margin-bottom: 170px;
+}
+
+.team__section--container {
+  display: flex;
+  position: relative;
+  height: 528px;
+}
+
+.background__team {
+  background-image: linear-gradient(to right, #F1F9F9 50%, #FFEEDF 50%);
+}
+
+.about__team {
+  width: 30%;
+}
+
+.about__team .section__tag {
+  color: #7AAEAE;
+  margin-bottom: 10px;
+  margin-top: 57px;
+}
+
+.about__team  .text--3{
+  margin-top: 57px;
+}
+
+.img__container {
+  margin: 0 50px;
+  width: 40%;
+  overflow: hidden;
+}
+
+.team__image {
+  object-position: -33px;
+  height: 111%;
+  transform: translateY(-7%);
+}
+
+.team__subtitle {
+  width: 30%;
+  color: #545454;
+}
+
+.sublitle__header--text {
+  font-family: $font--roboto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  margin-top: 59px;
+  margin-bottom: 10px;
+}
+
+.subtitle__text {
+  display: block;
+  position: relative;
+  font-family: $font--helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  padding-left: 22px;
+}
+
+.subtitle__text::before {
+  content: url(../images/coolicon.svg);
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.team__subtitle .banner__button {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.background__footer {
+  background-image: linear-gradient(to right, #87A8D0 14%, #DEECFC 10%);
+}
+
+.footer__container {
+  display: flex;
+  // justify-content: space-between;
+  // padding-top: 78px;
+  // padding-bottom: 38px;
+  gap: 30px;
+}
+
+.logo__text {
+  // background-color: #87A8D0;
+  padding-top: 78px;
+  padding-right: 30px;
+  padding-bottom: 177px;
+}
+
+.footer__header {
+  font-family: $font--roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #545454;
+  margin-bottom: 10px;
+  padding-top: 78px;
+}
+
+.footer__subtitles {
+  display: flex;
+  gap: 80px;
+  // flex-direction: column;
+}
+
+.footer__subtitle {
+  width: 147px;
+  font-family: $font--roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  padding-top: 10px;
+  color: #545454;
+}
+
+.text--4 {
+  width: 170px;
+  font-family: $font--roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: $color--2;
+  // background-color: #87A8D0;
+  padding-bottom: 38px;
+}
+
+.text--5 {
+  font-family: $font--roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #76AEDC;
+}
+
+.bottom__other {
+  display: flex;
+}
+
 
 @media only screen and (max-width: 1200px) {
   .header__background {

@@ -9,6 +9,15 @@
 
 @font-face {
   font-family: 'HelveticaNeueCyr';
+  src: url(../fonts/HelveticaNeueCyr-Medium.woff) format('woff');
+  src: url(../fonts/HelveticaNeueCyr-Medium.woff2) format('woff2');
+
+  font-size: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
   src: url(../fonts/HelveticaNeueCyr-Bold.woff) format('woff');
   src: url(../fonts/HelveticaNeueCyr-Bold.woff2) format('woff2');
 
